@@ -1,0 +1,15 @@
+I'm currently building a cost-effective, fully serverless application using AWS Free Tier services. Here's the tech stack and setup:
+
+    Frontend: Static website hosted on Amazon S3 (HTML, CSS, JS).
+
+    Backend: Dynamic processing via AWS Lambda and API Gateway.
+
+    Database: Using Amazon DynamoDB for NoSQL storage (or Amazon RDS if relational data is needed).
+
+    Security: Managed via IAM roles and protected with AWS WAF.
+
+    Networking: Custom domain handled through Amazon Route 53.
+
+    Monitoring: Logs and alerts configured with Amazon CloudWatch.
+
+    💡 Designed to scale with zero server management while staying within AWS Free Tier limits.

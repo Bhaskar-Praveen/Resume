@@ -1,0 +1,32 @@
+Here’s how I structured a fully serverless architecture using AWS Free Tier:
+🔹 1. Create an S3 Bucket
+    Enabled static website hosting for frontend assets.
+    Uploaded index.html, CSS, JS, and other resources.
+
+🔹 2. Set Up API Gateway
+    Created a REST API to handle dynamic client requests.
+    Integrated with AWS Lambda for serverless backend execution.
+
+🔹 3. Deploy AWS Lambda Functions
+     Wrote backend logic using Node.js / Python.
+     Stored and retrieved data from Amazon DynamoDB.
+
+🔹 4. Configure Route 53
+    Mapped a custom domain to the API Gateway and S3 bucket.
+
+🔹 5. Enable HTTPS with CloudFront
+    Secured the site using AWS Certificate Manager.
+    Used CloudFront CDN for caching and performance optimization.
+
+🔹 6. Set Up CI/CD Pipeline
+    Built a pipeline using AWS CodePipeline + CodeBuild.
+    Integrated with GitHub for automated deployments on every push.
+
+🔹 7. Monitor & Scale
+    Enabled CloudWatch Logs for real-time debugging.
+    Configured Auto Scaling for Lambda based on usage.
+
+
+🔗 Live Project: www.gotetibhaskar.com
+
+☁️ Aimed at keeping the stack 100% serverless, scalable, and within AWS Free Tier limits.
